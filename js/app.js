@@ -6,12 +6,10 @@ $("#btn").click(function (){
         setTimeout(function(){
         $("#display").text("");
        },2000);
-        $("#input").val(""); 
         }
        else{ 
             var input = $("#input").val().toUpperCase();
-            $("#display").text(input);
-            $("#input").val("");     
+            $("#display").text(input); 
 }
         
 })
