@@ -1,0 +1,51 @@
+body{
+    background: #95b9d1;
+    font-family: Roboto;
+    font-weight: normal;
+}
+#container{
+    display: block;
+    margin: 100px auto;
+    width: auto;
+    text-align: center;
+    background-color: #f5f5f5;
+    font-size: 24px;
+    
+}
+
+#message1{
+    padding-top: 20px;
+}
+
+#input{
+
+    width: 95%;
+    height: 150px;
+    border: 1px solid lightblue;
+    resize: none;
+    background-color: #ffffff;
+    font-size: 15px;
+    outline: none;
+}
+#message2{
+    font-size: 24px;
+}
+
+#btn{
+    color: white;
+    font-family: Roboto;
+    font-weight: normal;
+    text-align: center;
+    background-color: #95b9d1;
+}
+
+#btn:hover{
+    color: black;
+}
+
+#display{
+    margin: 0px;
+    padding-bottom: 20px;
+    color: #95b9d1;
+    font-size: 15px;
+}
